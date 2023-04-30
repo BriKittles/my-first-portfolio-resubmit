@@ -1,0 +1,47 @@
+/* Styling for HTML body>*/
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image:url(https://wallpaperaccess.com/full/629433.jpg);
+    color: #ffbb00;
+    margin: 10px;
+  }
+  /*https://images8.alphacoders.com/484/thumb-1920-484717.jp - my initial background was too dark for certain aspects of the page */
+  
+  /* header design */
+  
+  header{
+    text-align: center;
+    font-family: cursive, "Times New Roman";
+    font-size: 30px;
+    height:auto;
+  }
+  /* H2 styling*/
+  h2{
+    color: #a6ff00;
+    font-family: sans-serif;
+    text-align: center
+  }
+  /* H3 styling*/
+  h3{
+    color: whitesmoke;
+    text-align: center;
+    
+  }
+  
+  /*
+  .about {
+    background-color: #6f4dea;
+    color: white;
+  }
+  */
+  
+  /*p.text-edge{
+    padding-left: 10px;
+  }
+  */
+  /* background is too dark for links; code to change link color*/
+  a:link{color: yellow;}
+  a:visited{color:firebrick;}
+  a:hover{color:lightblue;}
+  a:active{color:chartreuse;}
